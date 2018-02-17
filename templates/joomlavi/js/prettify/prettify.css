@@ -1,0 +1,82 @@
+pre {
+	padding: 0 3px 2px;
+	font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+	color: #333;
+	display: block;
+	padding: 9.5px;
+	margin: 0 0 30px 0 !important;
+	font-size: 13px;
+	line-height: 20px;
+	word-break: break-all;
+	word-wrap: break-word;
+	white-space: pre;
+	white-space: pre-wrap;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	-webkit-border-radius: 4px;
+	        border-radius: 4px;
+}
+pre.prettyprint {
+	margin-bottom: 20px;
+}
+.pre-scrollable {
+	max-height: 340px;
+	overflow-y: scroll;
+}
+.com {
+	color: #999;
+}
+.lit {
+	color: #666 ;
+}
+.pun, .opn, .clo {
+	color: #000;
+}
+.fun {
+	color: #dc322f;
+}
+.str, .atv {
+	color: #D44950;
+}
+@font-face {
+    font-family: "MonacoRegular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("monaco/monaco-webfont.eot?#iefix") format("embedded-opentype"), url("monaco/monaco-webfont.woff") format("woff"), url("monaco/monaco-webfont.ttf") format("truetype"), url("monaco/monaco-webfont.svg#MonacoRegular") format("svg");
+}
+.kwd, .prettyprint .tag {
+	color: #974b76;
+    font-weight: bold;
+	font-family: inherit;
+    font-size: inherit !important;
+    font-weight: lighter;
+    height: inherit;
+    line-height: inherit !important;
+	font-family: Monaco,"MonacoRegular","Courier New",monospace !important;
+}
+.typ, .atn, .dec, .var {
+	/*color: teal;*/
+	color: teal !important;
+}
+.pln {
+	color: #333;
+}
+.prettyprint {
+	padding: 10px 15px;
+	background-color: #FFF;
+	border: 1px solid #e5e5e5;
+}
+.prettyprint.linenums {
+	-webkit-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+	        box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+}
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+	margin: 0 0 0 22px;
+}
+ol.linenums li {
+	padding-left: 12px;
+	color: #bebec5;
+	line-height: 20px;
+	list-style: decimal;
+}

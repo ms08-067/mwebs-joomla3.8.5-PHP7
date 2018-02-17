@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset name="jv_sort_field"
+			  label="JV_SORT_FIELD"
+	>
+	<field name="sort_field" type="list"
+			default="id"
+			description="JV_CONFIG_SORT_FIELD_LABEL_DESC"
+			label="JV_CONFIG_SORT_FIELD_LABEL"
+	>
+		<option value="id">ID</option>
+		<option value="update_date">Last Update</option>
+		<option value="id_categories_product">Categories Product</option>
+		<option value="created_date">Created Date</option>
+		<option value="name_project">Name Project</option>
+		<option value="price">Price</option>
+	</field>
+	
+	<field name="sort_field_oder" type="list"
+			default="DESC"
+			description="JV_CONFIG_SORT_FIELD_LABEL_DESC_ODER"
+			label="JV_CONFIG_SORT_FIELD_LABEL_ODER"
+	>
+		<option value="DESC">DESC</option>
+		<option value="ASC">ASC</option>
+	</field>
+	
+	</fieldset>
+	
+	
+<!--
+	<fieldset name="categories"
+		label="JCATEGORIES"
+		description="COM_CONTACT_FIELD_CONFIG_CATEGORIES_DESC"
+>
+		
+	</fieldset>
+-->
+</config>

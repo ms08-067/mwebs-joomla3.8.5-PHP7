@@ -1,0 +1,52 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+	body {
+		
+	}
+	
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		
+	}
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}
+div#mess {
+	height:30px;
+	padding-left: 65px;
+	padding-top: 12px;
+	font-weight: bold;
+}
+div.mess_updated {
+
+	background-image: url('../images/s.png');;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+div.mess_fail {
+
+	background-image: url('../images/w.png');;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
